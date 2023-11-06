@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ employee }}
+{% endblock %}
+
+{% block main %}
+<h1>{{ employee }}</h1>
+
+<h2>Date of birth</h2>
+<p>{{ employee.date_of_birth }}</p>
+
+<h2>Department</h2>
+<p>{{ employee.department }}</p>
+
+<h2>Supervisor</h2>
+{% if employee.supervisor %}
+<p><a href="{% url 'employee' employee.supervisor_id %}">{{ employee.supervisor }}</a></p>
+{% else %}
+<p><i>No supervisor</i></p>
+{% endif %}
+{% endblock %}

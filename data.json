@@ -1,0 +1,363 @@
+[
+{
+    "model": "timelog.department",
+    "pk": 1,
+    "fields": {
+        "title": "Web apps"
+    }
+},
+{
+    "model": "timelog.department",
+    "pk": 2,
+    "fields": {
+        "title": "Mobile apps"
+    }
+},
+{
+    "model": "timelog.department",
+    "pk": 3,
+    "fields": {
+        "title": "Data analysis"
+    }
+},
+{
+    "model": "timelog.department",
+    "pk": 4,
+    "fields": {
+        "title": "Sales and administration"
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 1,
+    "fields": {
+        "first_name": "Bernt",
+        "last_name": "Alnes",
+        "email": "bernt.alnes@company.no",
+        "date_of_birth": "1967-12-01",
+        "department": 1,
+        "supervisor": 2,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 2,
+    "fields": {
+        "first_name": "Mads",
+        "last_name": "Fjelldal",
+        "email": "mads.fjelldal@company.no",
+        "date_of_birth": "1953-07-17",
+        "department": 1,
+        "supervisor": null,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 3,
+    "fields": {
+        "first_name": "Karoline",
+        "last_name": "Lekve",
+        "email": "karoline.lekve@company.no",
+        "date_of_birth": "1980-01-25",
+        "department": 1,
+        "supervisor": 2,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 4,
+    "fields": {
+        "first_name": "Victor",
+        "last_name": "Longva",
+        "email": "victor.longva@company.no",
+        "date_of_birth": "1978-04-26",
+        "department": 1,
+        "supervisor": 2,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 5,
+    "fields": {
+        "first_name": "Ingvar",
+        "last_name": "Nymo",
+        "email": "ingvar.nymo@company.no",
+        "date_of_birth": "1976-09-11",
+        "department": 2,
+        "supervisor": 6,
+        "comment": "HSE manager"
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 6,
+    "fields": {
+        "first_name": "Runar",
+        "last_name": "Bodin",
+        "email": "runar.bodin@company.no",
+        "date_of_birth": "1969-05-29",
+        "department": 2,
+        "supervisor": null,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 7,
+    "fields": {
+        "first_name": "Alfred",
+        "last_name": "Bakke",
+        "email": "alfred.bakke@company.no",
+        "date_of_birth": "1960-01-11",
+        "department": 2,
+        "supervisor": 6,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 8,
+    "fields": {
+        "first_name": "Tor",
+        "last_name": "Vie",
+        "email": "tor.vie@company.no",
+        "date_of_birth": "1974-10-10",
+        "department": 2,
+        "supervisor": 6,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 9,
+    "fields": {
+        "first_name": "Sten",
+        "last_name": "Westgaard",
+        "email": "sten.westgaard@company.no",
+        "date_of_birth": "1975-06-03",
+        "department": 2,
+        "supervisor": 6,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 10,
+    "fields": {
+        "first_name": "Rakel",
+        "last_name": "Liseth",
+        "email": "rakel.liseth@company.no",
+        "date_of_birth": "1969-12-20",
+        "department": 3,
+        "supervisor": 13,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 11,
+    "fields": {
+        "first_name": "Emil",
+        "last_name": "Norman",
+        "email": "emil.norman@company.no",
+        "date_of_birth": "1982-02-13",
+        "department": 3,
+        "supervisor": 13,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 12,
+    "fields": {
+        "first_name": "Atle",
+        "last_name": "Dyrhaug",
+        "email": "atle.dyrhaug@company.no",
+        "date_of_birth": "1971-08-16",
+        "department": 3,
+        "supervisor": 13,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 13,
+    "fields": {
+        "first_name": "Jens",
+        "last_name": "Kvistad",
+        "email": "jens.kvistad@company.no",
+        "date_of_birth": "1952-03-09",
+        "department": 3,
+        "supervisor": null,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 14,
+    "fields": {
+        "first_name": "Lucas",
+        "last_name": "Ulset",
+        "email": "lucas.ulset@company.no",
+        "date_of_birth": "1983-10-28",
+        "department": 3,
+        "supervisor": 13,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 15,
+    "fields": {
+        "first_name": "Amalie",
+        "last_name": "Kvien",
+        "email": "amalie.kvien@company.no",
+        "date_of_birth": "1977-07-05",
+        "department": 4,
+        "supervisor": 16,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 16,
+    "fields": {
+        "first_name": "Thomas",
+        "last_name": "Tveten",
+        "email": "thomas.tveten@company.no",
+        "date_of_birth": "1968-03-19",
+        "department": 4,
+        "supervisor": null,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.employee",
+    "pk": 17,
+    "fields": {
+        "first_name": "Marita",
+        "last_name": "Lende",
+        "email": "marita.lende@company.no",
+        "date_of_birth": "1972-01-15",
+        "department": 4,
+        "supervisor": 16,
+        "comment": ""
+    }
+},
+{
+    "model": "timelog.project",
+    "pk": 1,
+    "fields": {
+        "title": "Project Alfa",
+        "planned_hours": 150
+    }
+},
+{
+    "model": "timelog.project",
+    "pk": 2,
+    "fields": {
+        "title": "Project Beta",
+        "planned_hours": 300
+    }
+},
+{
+    "model": "timelog.project",
+    "pk": 3,
+    "fields": {
+        "title": "Project Gamma",
+        "planned_hours": null
+    }
+},
+{
+    "model": "timelog.timeentry",
+    "pk": 1,
+    "fields": {
+        "project": 1,
+        "employee": 1,
+        "date": "2023-11-01",
+        "duration": "05:00:00",
+        "description": ""
+    }
+},
+{
+    "model": "timelog.timeentry",
+    "pk": 2,
+    "fields": {
+        "project": 1,
+        "employee": 1,
+        "date": "2023-11-02",
+        "duration": "08:00:00",
+        "description": ""
+    }
+},
+{
+    "model": "timelog.timeentry",
+    "pk": 3,
+    "fields": {
+        "project": 1,
+        "employee": 7,
+        "date": "2023-11-02",
+        "duration": "08:00:00",
+        "description": ""
+    }
+},
+{
+    "model": "timelog.timeentry",
+    "pk": 4,
+    "fields": {
+        "project": 1,
+        "employee": 7,
+        "date": "2023-11-03",
+        "duration": "01:15:00",
+        "description": ""
+    }
+},
+{
+    "model": "timelog.timeentry",
+    "pk": 5,
+    "fields": {
+        "project": 1,
+        "employee": 6,
+        "date": "2023-11-05",
+        "duration": "07:30:00",
+        "description": ""
+    }
+},
+{
+    "model": "timelog.timeentry",
+    "pk": 6,
+    "fields": {
+        "project": 2,
+        "employee": 13,
+        "date": "2023-11-01",
+        "duration": "08:00:00",
+        "description": ""
+    }
+},
+{
+    "model": "timelog.timeentry",
+    "pk": 7,
+    "fields": {
+        "project": 2,
+        "employee": 13,
+        "date": "2023-11-02",
+        "duration": "04:00:00",
+        "description": ""
+    }
+},
+{
+    "model": "timelog.timeentry",
+    "pk": 8,
+    "fields": {
+        "project": 2,
+        "employee": 13,
+        "date": "2023-11-06",
+        "duration": "08:00:00",
+        "description": ""
+    }
+}
+]

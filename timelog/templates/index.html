@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+Homepage
+{% endblock %}
+
+{% block main %}
+<h1>Welcome to the TimeLog App</h1>
+
+<h2>Employees</h2>
+<ul>
+{% for employee in employees %}
+    <li><a href="{% url 'employee' employee.pk %}">{{ employee }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
